@@ -1,0 +1,30 @@
+/* CSS - FlexBox, Grid Layout  e   */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header, footer{
+  background-color:#333;
+  color: aquamarine;
+  text-align: center;
+  padding: 1rem;
+}
+/*
+
+.container {
+    padding: 1rem;
+}*/
+.card{
+    background-color:aliceblue;
+    padding: 1rem;
+    border: 1px solid blueviolet;
+    margin: 0.5rem;
+    width: 200px;
+}
+/* Flexbox */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
